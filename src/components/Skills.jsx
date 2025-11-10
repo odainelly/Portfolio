@@ -13,7 +13,7 @@ import {
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full min-h-screen'>
+    <div id='skills' className='w-full min-h-screen '>
         <div className='flex  justify-center items-center gap-2'>
                 <h3 className='text-3xl hover:text-blue-600 transition-colors'>Skills</h3>
                 <p className='w-8 md:w-11 h-[2px] bg-[#fff] '></p>

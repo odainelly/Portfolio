@@ -11,7 +11,11 @@ const Nav = () => {
     <nav className=" fixed top-0 left-0 w-full z-[9999] backdrop-blur-md bg-transparent/20 border-b border-white/20 shadow-sm sm:max-w-[100%] ">
       <div className='container mx-auto flex sm:justify-start justify-between items-center   py-2 px-auto'>
 
-       
+        <div className=" max-w-7xl mx-auto px-4 py-3 flex items-center justify-between ">
+            {/* <Link to="/" className="text-2xl font-bold text-white">
+              MyBrand
+            </Link> */}
+
             <ul className="flex flex-grow lg:justify-center md:justify-center justify-start w-full space-x-8 m-auto text-2xl">
 
               <li className='font-bold lg:text-md '><Link to="home" smooth={true} duration={500} className="hover:text-blue-600 transition-colors">Home</Link></li>
@@ -36,7 +40,7 @@ const Nav = () => {
 
        
 
-        
+        </div>
 
        <div className="   space-x-2 gap-2 hidden sm:flex">
 					<NavBarIcon
