@@ -10,8 +10,8 @@ import { Slide } from 'react-awesome-reveal';
 
 const About = () => {
   return (
-    <div id="about">
-        <div className=' bg-black min-h-screen w-full text-white pt-[100px] pb-[100px]'>
+    // <div id="about">
+        <div  id='about' className=' bg-black min-h-screen w-full text-white pt-[100px] pb-[100px]'>
             {/* this div is just for styling the about */}
             <div className='flex  justify-center items-center gap-2'>
                 <p className='w-8 md:w-11 h-[2px] bg-[#fff] '></p>
@@ -58,7 +58,7 @@ const About = () => {
             
 
         </div>
-    </div>
+    // </div>
   )
 }
 
